@@ -64,6 +64,7 @@ input {
 
 #weatherDetails {
   padding: 10px;
+  font-size: 20px;
   border-radius: 5px;
 }
 
@@ -75,4 +76,20 @@ input {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+}
+
+@media (max-width: 700px) {
+  & h1{
+    font-size: 12vw;
+  }
+  & li{
+    font-size: 6vw;
+  }
+  & h3{
+    font-size: 11vw;
+  }
+  & button{
+    font-size: 6vw;
+    pa: 20px;
+  }
 }
